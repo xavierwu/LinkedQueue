@@ -2,11 +2,7 @@
 #define LINKEDQUEUE_H
 
 #include "Node.h"
-
-enum ErrorCode
-{
-	SUCCESS, UNDERFLOW, OVERFLOW
-};
+#include "ErrorCode.h"
 
 template<class QueueEntry>
 class LinkedQueue
